@@ -29,17 +29,17 @@ def dashboard(): # função que gerencia rota deve ser única
     
     vendas: list = [
         {"mes":"Janeiro", "total": 128742.36},
-        {"mes":"Fevereiro", "total": 18452.91},
-        {"mes":"Março", "total": 13210.74},
-        {"mes":"Abril", "total": 9754.28},
-        {"mes":"Maio", "total": 14123.67},
-        {"mes":"Junho", "total": 8631.42},
-        {"mes":"Julho", "total": 10458.93},
-        {"mes":"Agosto", "total": 12387.15},
-        {"mes":"Setembro", "total": 13776.48},
-        {"mes":"Outubro", "total": 14992.31},
-        {"mes":"Novembro", "total": 11754.66},
-        {"mes":"Dezembro", "total": 16840.27}
+        {"mes":"Fevereiro", "total": 99452.91},
+        {"mes":"Março", "total": 100210.74},
+        {"mes":"Abril", "total": 97564.28},
+        {"mes":"Maio", "total": 140123.67},
+        {"mes":"Junho", "total": 182631.42},
+        {"mes":"Julho", "total": 100458.93},
+        {"mes":"Agosto", "total": 122387.15},
+        {"mes":"Setembro", "total": 130776.48},
+        {"mes":"Outubro", "total": 111992.31},
+        {"mes":"Novembro", "total": 110754.66},
+        {"mes":"Dezembro", "total": 164840.27}
     ] # fim da lista de vendas
     
     return render_template("dashboard/index.html", title = "Painel de Vendas", vendas = vendas, locale = locale) # Renderiza um template
